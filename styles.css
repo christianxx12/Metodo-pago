@@ -1,0 +1,105 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-image: url(./img/background.jpg);
+}
+
+.principal {
+    margin: 0 auto;
+    margin-top: 100px;
+    width: 350px;
+    height: 300px;
+    background-color: white;
+    border-radius: 3px;
+}
+
+.puntos {
+    width: 33px;
+    height: 40px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.principal .puntos div {
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: gray;
+}
+
+.title {
+    height: 40px;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+
+figure {
+    width: 40px;
+    margin-left: 20px;
+}
+
+.tarjeta {
+    width: 350px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    border-top: 1px solid #dbdad7;
+    /* border-bottom: 1px solid #dbdad7; */
+}
+
+.tarjeta:hover {
+    cursor: pointer;
+    background-color: #ededed;
+}
+
+.tarjeta span {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    color: #dbdad7;
+    font-size: 13px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.tarjeta p {
+    margin: -4px 0 0 11px;
+}
+
+.mastercard span {
+    color: black;
+}
+
+.mastercard .check {
+    margin: 0 0 0 150px;
+}
+
+button {
+    width: 350px;
+    height: 67px;
+    font-size: 13px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    background-color: #7da5f5;
+    border: 1px solid #7da5f5;
+    display: flex;
+    justify-content: center;
+    outline: none;
+}
+
+button img {
+    margin-left: 4px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+button:active {
+    border-top: 2px solid white;
+}
